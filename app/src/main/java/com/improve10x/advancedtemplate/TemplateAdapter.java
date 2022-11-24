@@ -7,12 +7,13 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class TemplateAdapter extends RecyclerView.Adapter <TemplateViewHolder> {
-    public  List<Template> templates;
-    public void setData(List<Template>templateList) {
-        notifyDataSetChanged();
+    public ArrayList<Template> templates;
+    public void setData(ArrayList<Template>templateList) {
+        templates = templateList;
     }
 
     @NonNull
