@@ -22,7 +22,10 @@ public class TemplateActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Template");
         setData();
         setUpTemplateUi();
+        fetchData();
+    }
 
+    private void fetchData() {
     }
 
     private void setUpTemplateUi() {
