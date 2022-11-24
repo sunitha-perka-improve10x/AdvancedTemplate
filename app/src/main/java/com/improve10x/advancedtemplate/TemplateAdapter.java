@@ -5,21 +5,11 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class TemplateAdapter extends RecyclerView.Adapter {
+import java.util.List;
 
-    @NonNull
-    @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return null;
-    }
-
-    @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+public class TemplateAdapter extends RecyclerView.Adapter <TemplateViewHolder> {
 
     }
 
-    @Override
-    public int getItemCount() {
-        return 0;
-    }
-}
+
+
