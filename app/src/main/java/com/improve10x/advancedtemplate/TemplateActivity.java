@@ -18,6 +18,13 @@ public class TemplateActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_template);
+        getSupportActionBar().setTitle("Template");
+        SetData();
 
+
+
+    }
+
+    public void SetData() {
     }
 }
